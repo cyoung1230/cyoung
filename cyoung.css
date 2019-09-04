@@ -1,0 +1,25 @@
+body{
+	 background-color: #213627;
+}
+header{
+	background-color: #a39898 ;
+}
+footer{
+	background-color: #18172e;
+	color:white;
+}
+#content{
+	background-color: #18172e;
+	color: white;
+}
+header, footer, #content {
+	border-style: solid;
+	border-width: 1px;
+	border-color: green;
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	box-shadow: 5px 5px 5px white;
+}
