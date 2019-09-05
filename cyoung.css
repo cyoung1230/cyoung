@@ -3,6 +3,12 @@ body{
 }
 header{
 	background-color: #a39898 ;
+	background-image: url("bowlingball.png");
+	background-position: right 5px top 5px;
+	background-repeat: no-repeat;
+	height: 57px; /* background image height is 57 */
+	padding: 5px;
+	padding-left: 20px; 
 }
 footer{
 	background-color: #18172e;
@@ -11,6 +17,8 @@ footer{
 #content{
 	background-color: #18172e;
 	color: white;
+	padding: 15px;
+	min-height: 100px;
 }
 header, footer, #content {
 	border-style: solid;
@@ -22,4 +30,29 @@ header, footer, #content {
 	margin-right: auto;
 	width: 80%;
 	box-shadow: 5px 5px 5px white;
+}
+h1 {
+	color: #5a665d;
+	font-size:200%;
+	font-family: cambria,courier;
+}
+.floatImg  {
+	float: left;
+	margin: 0px 10px;
+}
+h2{
+	font-size: 100%;
+	color:white;
+	font-family: verdana, arial;
+}
+footer{
+	background-color: #516143;
+	color:white;
+    font-family: verdana, arial;
+    text-align: center;
+    font-size: 90%;
+    padding: 5px;
+}
+ul   {
+	  list-style-position: inside;
 }
